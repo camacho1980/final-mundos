@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Mail;
+namespace App\Http\Mail;
 
 use App\Models\Mensaje;
 use Illuminate\Bus\Queueable;
@@ -31,6 +31,6 @@ class MensajeContacto extends Mailable
      */
     public function build()
     {
-        return $this->markdown('mail');
+        return $this->markdown('mensajes.mail');
     }
 }

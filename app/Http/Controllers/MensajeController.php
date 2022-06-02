@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Mensaje;
 use Illuminate\Http\Request;
-use App\Mail\MensajeContacto;
+use App\Http\Mail\MensajeContacto;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\support\Facades\Validator;
 
