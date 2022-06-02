@@ -1,7 +1,7 @@
 <?php
 
-
 namespace App\Http\Controllers;
+
 use App\Models\Mensaje;
 use Illuminate\Http\Request;
 use App\Mail\MensajeContacto;
