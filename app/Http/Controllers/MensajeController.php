@@ -6,7 +6,7 @@ use App\Models\Mensaje;
 use Illuminate\Http\Request;
 use App\Http\Mail\MensajeContacto;
 use Illuminate\Support\Facades\Mail;
-use Illuminate\support\Facades\Validator;
+use Illuminate\Support\Facades\Validator;
 
 
 class MensajeController extends Controller
