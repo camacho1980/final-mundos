@@ -23,3 +23,5 @@ use App\Http\Controllers\MensajeController;
 
 //CREAMOS LA RUTA API
 Route::post('/contacto',[MensajeController::class,'apiMensaje'])->name('api.mensaje');
+
+

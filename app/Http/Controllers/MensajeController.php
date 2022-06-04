@@ -54,5 +54,13 @@ class MensajeController extends Controller
             'data'=> $mensaje
         ],201);
     }
+
+    // tabla mensajes
+
+    public function mensaje(){
+        $titulo = 'mensaje';
+        $mensajes=Mensaje::all();
+        return view('mensaje',compact('titulo','mensajes'));
+    }
      
 }
