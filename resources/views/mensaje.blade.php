@@ -7,7 +7,7 @@
             table {
                 border-collapse: collapse;
                 display: flex;
-                margin: 10%;
+                margin: 5%;
             }   
             table,
             th,
@@ -43,6 +43,7 @@
                 <th scope="col">{{$mensaje->phone}}</th>      
                 <th scope="col">{{$mensaje->message}}</th>      
             </tr>
-            @endforeach            
-        </div>
+            @endforeach 
+        </table>           
+    </div>
    
